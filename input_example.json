@@ -23,6 +23,115 @@
         {"from": "C", "to": "D", "weight": 3},
         {"from": "B", "to": "D", "weight": 5}
       ]
+    },
+    {
+      "id": 3,
+      "nodes": ["A", "B", "C"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 1},
+        {"from": "B", "to": "C", "weight": 2},
+        {"from": "A", "to": "C", "weight": 3}
+      ]
+    },
+    {
+      "id": 4,
+      "nodes": ["A", "B", "C", "D", "E", "F"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 2},
+        {"from": "A", "to": "C", "weight": 3},
+        {"from": "B", "to": "C", "weight": 1},
+        {"from": "B", "to": "D", "weight": 4},
+        {"from": "C", "to": "D", "weight": 5},
+        {"from": "C", "to": "E", "weight": 6},
+        {"from": "D", "to": "E", "weight": 7},
+        {"from": "D", "to": "F", "weight": 8},
+        {"from": "E", "to": "F", "weight": 9}
+      ]
+    },
+    {
+      "id": 5,
+      "nodes": ["A", "B", "C", "D", "E", "F"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 10},
+        {"from": "B", "to": "C", "weight": 18},
+        {"from": "C", "to": "D", "weight": 22},
+        {"from": "D", "to": "E", "weight": 25},
+        {"from": "E", "to": "F", "weight": 24},
+        {"from": "F", "to": "A", "weight": 12},
+        {"from": "A", "to": "C", "weight": 16},
+        {"from": "B", "to": "D", "weight": 21},
+        {"from": "C", "to": "E", "weight": 23},
+        {"from": "D", "to": "F", "weight": 11}
+      ]
+    },
+    {
+      "id": 6,
+      "nodes": ["Center", "N1", "N2", "N3", "N4"],
+      "edges": [
+        {"from": "Center", "to": "N1", "weight": 1},
+        {"from": "Center", "to": "N2", "weight": 2},
+        {"from": "Center", "to": "N3", "weight": 3},
+        {"from": "Center", "to": "N4", "weight": 4}
+      ]
+    },
+    {
+      "id": 7,
+      "nodes": ["A", "B", "C", "D", "E", "F", "G"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 7},
+        {"from": "A", "to": "D", "weight": 5},
+        {"from": "B", "to": "C", "weight": 8},
+        {"from": "B", "to": "D", "weight": 9},
+        {"from": "B", "to": "E", "weight": 7},
+        {"from": "C", "to": "E", "weight": 5},
+        {"from": "D", "to": "E", "weight": 15},
+        {"from": "D", "to": "F", "weight": 6},
+        {"from": "E", "to": "F", "weight": 8},
+        {"from": "E", "to": "G", "weight": 9},
+        {"from": "F", "to": "G", "weight": 11}
+      ]
+    },
+    {
+      "id": 8,
+      "nodes": ["A", "B", "C", "D", "E"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 1},
+        {"from": "B", "to": "C", "weight": 1},
+        {"from": "C", "to": "D", "weight": 1},
+        {"from": "D", "to": "E", "weight": 1},
+        {"from": "E", "to": "A", "weight": 1}
+      ]
+    },
+    {
+      "id": 9,
+      "nodes": ["A", "B", "C", "D"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 1},
+        {"from": "A", "to": "C", "weight": 2},
+        {"from": "A", "to": "D", "weight": 3},
+        {"from": "B", "to": "C", "weight": 4},
+        {"from": "B", "to": "D", "weight": 5},
+        {"from": "C", "to": "D", "weight": 6}
+      ]
+    },
+    {
+      "id": 10,
+      "nodes": ["X", "Y", "Z", "P", "Q", "R", "S", "T"],
+      "edges": [
+        {"from": "X", "to": "Y", "weight": 3},
+        {"from": "X", "to": "Z", "weight": 5},
+        {"from": "Y", "to": "Z", "weight": 4},
+        {"from": "Y", "to": "P", "weight": 7},
+        {"from": "Z", "to": "P", "weight": 6},
+        {"from": "Z", "to": "Q", "weight": 8},
+        {"from": "P", "to": "Q", "weight": 9},
+        {"from": "P", "to": "R", "weight": 10},
+        {"from": "Q", "to": "R", "weight": 11},
+        {"from": "Q", "to": "S", "weight": 12},
+        {"from": "R", "to": "S", "weight": 13},
+        {"from": "R", "to": "T", "weight": 14},
+        {"from": "S", "to": "T", "weight": 15}
+      ]
     }
   ]
 }
